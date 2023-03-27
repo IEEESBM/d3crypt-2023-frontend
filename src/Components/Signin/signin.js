@@ -155,7 +155,7 @@ export default function Signin() {
         <div className="col-lg-5 col-md-4 img-fluid my-auto p-3 col-12">
           <Ques className="col-10 my-3 mx-5 img" />
           <p className="text-light text-center">
-          You're almost there. Begin your quest today!
+            You're almost there. Begin your quest today!
           </p>
         </div>
       </div>
@@ -191,13 +191,13 @@ export default function Signin() {
               />
               <div className="passwordError2 error">&nbsp;</div>
 
-              <p className="text-light text-end mt-2 me-4 fs-6 forgot"><Link
+              {/* <p className="text-light text-end mt-2 me-4 fs-6 forgot"><Link
                   to={"/forgot"}
                   style={({ color: "white" }, { textDecoration: "none" })}
                 >
                 Forgot Password ?
                 </Link>
-              </p>
+              </p> */}
               <button
                 type="submit"
                 class="btn-login col-10 btn-block p-2 m-2 fs-3 text-center"
@@ -208,11 +208,11 @@ export default function Signin() {
               </button>
               <div className="d-flex flex-row ">
                 <p className="text-light mt-3 fs-6 text-center">Don’t have an account yet?
-                <a className="signup-text mt-3" href="/register">
-                {" "}
-                Sign Up!
-              </a>
-  
+                  <a className="signup-text mt-3" href="/register">
+                    {" "}
+                    Sign Up!
+                  </a>
+
                 </p>
               </div>
             </div>

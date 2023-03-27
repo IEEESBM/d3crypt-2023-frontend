@@ -2,10 +2,10 @@ import React from 'react';
 import { AiOutlineArrowRight } from "react-icons/ai";
 import './signupPopup.css'
 
-function SignUpPopup({remove}) {
+function SignUpPopup({ remove }) {
 
   const handleClick = () => {
-    window.location.href='/signin'
+    window.location.href = '/signin'
   }
   return (
     <div>
@@ -14,8 +14,9 @@ function SignUpPopup({remove}) {
           <p className='signup-title-text'>Email Verification</p>
         </div>
         <div className='signup-body'>
-          <p className='signup-body-content'>Click on the link in your inbox/spam folder to verify yourself
-           <a href="https://www.instagram.com/ieeesbm/?hl=en" target={"_blank"}> @ieeesbm</a></p>
+          <p className='signup-body-content'>You can now login!
+            {/* <a href="https://www.instagram.com/ieeesbm/?hl=en" target={"_blank"}> @ieeesbm</a> */}
+          </p>
           <button className='signup-button' onClick={handleClick}>
             <span className='signup-button-text'>Close</span>
             <AiOutlineArrowRight className="signup-right-arrow" />
