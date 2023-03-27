@@ -55,11 +55,11 @@ function App() {
             <Navbar />
             <ResetPassword />
           </Route>
-          <Route exact path="/forgot">
+          {/* <Route exact path="/forgot">
             <MobileNavbar />
             <Navbar />
             <ForgotPassword />
-          </Route>
+          </Route> */}
           <Route exact path="/signin">
             <>
               <Navbar />
