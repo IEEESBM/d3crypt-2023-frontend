@@ -20,7 +20,7 @@ function UserProfile() {
   useEffect(async () => {
      jwt = JSON.parse(localStorage.getItem("jwt"));
      await axios
-     .get("http://localhost:4000/check-verified", {
+     .get("https://d3crypt-2023-backend.onrender.com/check-verified", {
        headers: {
          "x-access-token": jwt,
        },
@@ -41,7 +41,7 @@ function UserProfile() {
     
     
 
-    axios.get("http://localhost:4000/users/:idy", { params: { id: jwt } })
+    axios.get("https://d3crypt-2023-backend.onrender.com/users/:idy", { params: { id: jwt } })
 
       .then((res) => {
         ConsoleHelper(res.data);
@@ -74,7 +74,7 @@ function UserProfile() {
   function submitHandler(e) {
     ConsoleHelper(jwt);
     axios
-      .get("http://localhost:4000/users/u", {
+      .get("https://d3crypt-2023-backend.onrender.com/users/u", {
         params: {
           id: jwt,
           username: person.fullName,

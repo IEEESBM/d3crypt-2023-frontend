@@ -5,7 +5,7 @@ import ConsoleHelper from "../../Components/consolelogger";
 export const register = function (newUser) {
   return function (dispatch) {
     return axios
-      .post("http://localhost:4000/signup", {
+      .post("https://d3crypt-2023-backend.onrender.com/signup", {
         username: `${newUser.username}`,
         email: `${newUser.email}`,
         password: `${newUser.password}`,

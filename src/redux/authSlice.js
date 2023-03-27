@@ -7,7 +7,7 @@ const jwt = JSON.parse(localStorage.getItem("jwt"));
 // var allow = false;
 
 // export const check_verified = async () => {
-//   await axios.get("http://localhost:4000/check-verified", {
+//   await axios.get("https://d3crypt-2023-backend.onrender.com/check-verified", {
 //     headers: {
 //       'x-access-token': jwt
 //     }

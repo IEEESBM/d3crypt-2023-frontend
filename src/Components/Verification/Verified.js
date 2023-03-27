@@ -49,8 +49,8 @@ function countdown(ctr) {
     }
 }
     useEffect(()=>{
-        axios.get("http://localhost:4000/verify-email",{
-            // axios.get("http://localhost:4000/verify-email",{
+        axios.get("https://d3crypt-2023-backend.onrender.com/verify-email",{
+            // axios.get("https://d3crypt-2023-backend.onrender.com/verify-email",{
         headers: {
                 'x-access-token': token
               }
