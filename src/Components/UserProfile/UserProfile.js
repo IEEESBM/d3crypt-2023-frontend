@@ -151,12 +151,12 @@ function UserProfile() {
               handleChange={handleChange}
               editField={editField}
             />
-            <ChangePassword
+            {/* <ChangePassword
               person={person}
               setPerson={setPerson}
               handleChange={handleChange}
               editField={editField}
-            />
+            /> */}
           </div>
 
           <div className="buttons">

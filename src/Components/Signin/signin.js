@@ -123,14 +123,14 @@ export default function Signin() {
               />
               <div className="passwordError error">&nbsp;</div>
 
-              <p className="text-light text-end mt-2 col-8 fs-5">
+              {/* <p className="text-light text-end mt-2 col-8 fs-5">
                 <Link
                   to={"/forgot"}
                   style={({ color: "white" }, { textDecoration: "none" })}
                 >
                   Forgot Password?
                 </Link>
-              </p>
+              </p> */}
               <a class="sign_in">
                 <button
                   type="submit"
