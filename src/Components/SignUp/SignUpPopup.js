@@ -11,7 +11,7 @@ function SignUpPopup({ remove }) {
     <div>
       <div className='signup-content'>
         <div className='signup-title'>
-          <p className='signup-title-text'>Email Verification</p>
+          <p className='signup-title-text'>Congratulations!</p>
         </div>
         <div className='signup-body'>
           <p className='signup-body-content'>You can now login!
