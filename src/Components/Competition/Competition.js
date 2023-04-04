@@ -77,9 +77,6 @@ function App() {
       }
     })
       .then((res) => {
-        console.log('in here');
-        ConsoleHelper(res)
-        console.log(res.data);
         if (res.data === "Congratulations!, you're done with all the questions") {
           document.querySelector('.competition-main-outer').style.display = 'none';
           setFinalPop(true);
@@ -119,8 +116,6 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // setDis(true);
-    ConsoleHelper(userID);
-    ConsoleHelper("submitting");
     var token = localStorage.getItem("jwt");
 
     axios
@@ -130,7 +125,6 @@ function App() {
       })
       .then((res) => {
         document.querySelector('.answer-error').innerHTML = '&nbsp;'
-        ConsoleHelper(res.data);
         setDis(false);
         setFirst(0);
 
@@ -151,7 +145,6 @@ function App() {
         }
       })
       .catch((error) => {
-        ConsoleHelper(error);
       });
   };
 
