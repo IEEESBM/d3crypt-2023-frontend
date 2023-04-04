@@ -135,7 +135,7 @@ function App() {
           setPopup0(false);
           setPopup1(false);
           setPopup2(false);
-          if (ind === 5) {
+          if (ind === 25) {
             setFinalPop(true);
           }
 
@@ -180,7 +180,7 @@ function App() {
               <div className="competition-question-outer">
                 <div className="competition-question-content">
                   <div className="question-counter">
-                    Question <span>{ind}</span> of 5
+                    Question <span>{ind}</span> of 25
                   </div>
                   <div className="question-title">{qtitle}</div>
                   <div className="boxes-outer">
