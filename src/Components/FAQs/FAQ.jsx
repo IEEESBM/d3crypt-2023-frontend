@@ -47,7 +47,7 @@ export default function FAQs() {
           </h2>
           <div
             id="collapseTwo"
-            class="accordion-collapse collapse"
+            class="accordion-collapse collapse show"
             aria-labelledby="headingTwo"
             data-bs-parent="#accordionExample"
           >
@@ -73,7 +73,7 @@ export default function FAQs() {
           </div>
           <div
             id="collapseThree"
-            class="accordion-collapse collapse"
+            class="accordion-collapse collapse show"
             aria-labelledby="headingThree"
             data-bs-parent="#accordionExample"
           >
