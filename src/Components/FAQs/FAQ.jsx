@@ -26,7 +26,7 @@ export default function FAQs() {
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-            D3CRYPT is an online guessing game made to test your analytical aptitude. The event will be live from 13th-14th February 2022.
+            D3CRYPT is an online guessing game made to test your analytical aptitude. The event will be live from 6th April 6 P.M. - 8th April 6 P.M.
             </div>
           </div>
         </div>

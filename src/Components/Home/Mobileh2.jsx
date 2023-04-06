@@ -29,7 +29,7 @@ export default function Mobileh2() {
           What is the D3CRYPT? When is it conducted?
           </span>
           <br />
-          D3CRYPT is an online guessing game made to test your analytical aptitude. The event will be live from 13th-14th February 2022.
+          D3CRYPT is an online guessing game made to test your analytical aptitude. The event will be live from 6th April 6 P.M. - 8th April 6 P.M.
         </div>
         <span class="ellipse2"></span>
         <div class="faq-list2">
@@ -80,7 +80,7 @@ export default function Mobileh2() {
           <span class="bold">
           </span>
           <br /> <br />
-         2. Starting on 13th February, 12pm, your quest ends in 36 hours. You need to finish answering all the questions within the allotted time.            <br />
+         2. Starting on 6th April 6 P.M., your quest ends in 48 hours. You need to finish answering all the questions within the allotted time.            <br />
 
         </div>
         <span class="ellipse7"></span>

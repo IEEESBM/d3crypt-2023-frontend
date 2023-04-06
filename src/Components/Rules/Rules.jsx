@@ -9,7 +9,7 @@ export default function Rules() {
     },
     {
       title: " ",
-      desc: " 2. Starting on 13th February, 12pm, your quest ends in 36 hours. You need to finish answering all the questions within the allotted time.",
+      desc: " 2. Starting on 6th April 6 P.M., your quest ends in 48 hours. You need to finish answering all the questions within the allotted time.",
     },
     {
       title: " ",

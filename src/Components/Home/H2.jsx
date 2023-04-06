@@ -28,7 +28,7 @@ export default function H2() {
           </b>
           <p>
             {" "}
-            D3CRYPT is an online guessing game made to test your analytical aptitude. The event will be live from 13th-14th February 2022.
+            D3CRYPT is an online guessing game made to test your analytical aptitude. The event will be live from 6th April 6 P.M. - 8th April 6 P.M.
           </p>
         </li>
 
@@ -73,7 +73,7 @@ export default function H2() {
         </li>
 
         <li>
-          <b style= {{fontSize: "1.35em"}}> Starting on 13th February, 12pm, your quest ends in 36 hours. You need to finish answering all the questions within the allotted time. </b>
+          <b style= {{fontSize: "1.35em"}}> Starting on 6th April 6 P.M., your quest ends in 48 hours. You need to finish answering all the questions within the allotted time. </b>
           <p>
             {" "}
           </p>

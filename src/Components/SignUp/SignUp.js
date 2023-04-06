@@ -79,6 +79,7 @@ function SignUp() {
 
   const handleOnSubmit = (e) => {
     e.preventDefault();
+    alert('Hang on, this may take a while!');
     dispatch(register(newUser)).then(
       () => {
         console.log("valid");
